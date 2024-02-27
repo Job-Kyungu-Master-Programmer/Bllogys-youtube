@@ -1,0 +1,45 @@
+
+
+
+
+.footer {
+    margin-top: 10em;
+    background: rgb(3, 31, 63);
+    width: 100%;
+    height: 10em;
+    color: #ccc;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__top {
+        padding: 2em;
+        border-bottom: 1px solid rgb(18, 67, 124);
+    }
+
+    &__categories {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+
+    &__item {
+        margin-right: 2em;
+    }
+
+    &__link {
+        padding: .5em 1em;
+        text-decoration: none;
+        width: fit-content;
+        color: #d3d3d3;
+        background-color: rgb(39, 122, 217);
+        border-radius: .7em;
+    }
+
+    &__bottom {
+        padding: 2em;
+        text-align: center;
+    }
+}
